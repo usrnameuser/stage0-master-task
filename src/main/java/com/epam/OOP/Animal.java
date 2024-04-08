@@ -12,7 +12,7 @@ public class Animal {
   private boolean hasFur;
   
   public String getDescription() {
-    String colorDescription = "This animal is mostly " + this.color + " .";
+    String colorDescription = "This animal is mostly " + this.color + ".";
     String pawsDescription = " It has " + this.numberOfPaws + " " + numberOfPawsDescription();
     String furDescription = " and " + hasFurDescription() + " fur.";
     return colorDescription + pawsDescription + furDescription;
