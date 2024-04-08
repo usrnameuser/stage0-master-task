@@ -8,14 +8,16 @@ public class Animal {
   }
   
   private String color;
-  private int numberOfPaws;
+   private int numberOfPaws;
   private boolean hasFur;
   
   public String getDescription() {
+    String description;
     String colorDescription = "This animal is mostly " + this.color + ".";
     String pawsDescription = " It has " + this.numberOfPaws + " " + numberOfPawsDescription();
     String furDescription = " and " + hasFurDescription() + " fur.";
-    return colorDescription + pawsDescription + furDescription;
+    description = colorDescription + pawsDescription + furDescription;
+    return description;
   }
   
   private String hasFurDescription() {
@@ -39,6 +41,7 @@ public class Animal {
     }
     return numberOfPawsDescription;
   }
+  
   private boolean isOnePaw() {
     boolean onePaw;
     if(this.numberOfPaws == 1) {
