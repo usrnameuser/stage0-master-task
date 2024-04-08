@@ -1,9 +1,9 @@
 package com.epam.OOP;
 
 public class Animal {
-  public Animal(String color, int NumberOfPaws, boolean hasFur) {
+  public Animal(String color, int numberOfPaws, boolean hasFur) {
     this.color = color;
-    this.NumberOfPaws = NumberOfPaws;
+    this.numberOfPaws = numberOfPaws;
     this.hasFur = hasFur;
   }
   
