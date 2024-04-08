@@ -1,5 +1,5 @@
 package com.epam.OOP;
 
-public class Dog {
+public class Dog extends Animal {
 
 }
