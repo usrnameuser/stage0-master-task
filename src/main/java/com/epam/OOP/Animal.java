@@ -15,8 +15,7 @@ public class Animal {
     String colorDescription = "This animal is mostly " + this.color + " .";
     String pawsDescription = " It has " + this.numberOfPaws + " " + numberOfPawsDescription();
     String furDescription = " and " + hasFurDescription() + " fur.";
-    String description = colorDescription + pawsDescription + furDescription;
-    return description;
+    return colorDescription + pawsDescription + furDescription;
   }
   
   private String hasFurDescription() {
