@@ -7,7 +7,7 @@ public class DigitsSumCalculator {
         char[] numberCharArray = numberString.toCharArray();
         int digitSum = 0;
         for(char numberChar : numberCharArray) {
-            digitSum += Character.getNumericValue(numberChar)
+            digitSum += Character.getNumericValue(numberChar);
         }
         System.out.println(digitSum); 
     }
