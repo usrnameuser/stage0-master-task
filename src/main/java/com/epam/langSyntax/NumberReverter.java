@@ -6,7 +6,7 @@ public class NumberReverter {
         String numberString = String.valueOf(number);
         StringBuilder numberStringBuilder = StringBuilder(String str);
         numberStringBuilder.reverse();
-        System.out.println(numberStringBuilder);
+        System.out.println(numberStringBuilder.toString());
 
     }
 
